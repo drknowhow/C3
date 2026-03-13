@@ -9,17 +9,28 @@ C3 is a local code-intelligence layer for AI coding tools. The useful core is na
 
 New installs should use the guided `init` flow with direct MCP mode:
 
+**Windows:**
 ```bash
-pip install -r requirements.txt
-python cli/c3.py init /path/to/project
+install.bat
 ```
 
-`c3 init` now walks through IDE selection, optional local `git init`, and optional MCP installation.
+**Mac/Linux:**
+```bash
+./install.sh
+```
+
+Once installed, `c3` is available globally:
+
+```bash
+c3 init /path/to/project
+```
+
+`c3 init` walks through IDE selection, optional local `git init`, and optional MCP installation.
 
 If you want the same behavior without prompts:
 
 ```bash
-python cli/c3.py init /path/to/project --force --git --ide codex --mcp-mode direct
+c3 init /path/to/project --force --git --ide codex --mcp-mode direct
 ```
 
 `direct` points the IDE straight at `cli/mcp_server.py`.
@@ -27,15 +38,15 @@ python cli/c3.py init /path/to/project --force --git --ide codex --mcp-mode dire
 `proxy` is still available, but it is now an advanced mode for teams that explicitly want dynamic tool filtering experiments:
 
 ```bash
-python cli/c3.py install-mcp /path/to/project --mcp-mode proxy
+c3 install-mcp /path/to/project --mcp-mode proxy
 ```
 
 `install-mcp` also accepts IDE shorthand positionally when you are already in the project directory:
 
 ```bash
-python cli/c3.py install-mcp claude
-python cli/c3.py install-mcp codex
-python cli/c3.py install-mcp . gemini
+c3 install-mcp claude
+c3 install-mcp codex
+c3 install-mcp . gemini
 ```
 
 ## Lean Workflow
@@ -86,7 +97,7 @@ C3 now features a sophisticated three-tier local intelligence system powered by 
 ## Benchmarking
 
 ```bash
-python cli/c3.py benchmark /path/to/project
+c3 benchmark /path/to/project
 ```
 
 When local Ollama is available, `c3_delegate` is measured and included in the main benchmark scorecard rather than being treated as an optional side metric.
@@ -108,7 +119,7 @@ These remain available, but they are not part of the recommended default path:
 ## Web UI
 
 ```bash
-python cli/c3.py ui /path/to/project
+c3 ui /path/to/project
 ```
 
 The UI now treats direct MCP mode as the recommended default and labels proxy mode as advanced.
