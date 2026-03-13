@@ -116,3 +116,11 @@ The UI now treats direct MCP mode as the recommended default and labels proxy mo
 - `--git` runs a local-only `git init`; it does not add remotes or use any hosted service.
 - Existing installs are not automatically migrated; rerun `install-mcp` or `init --force` to switch defaults.
 - Legacy `SHOW_SAVINGS_SUMMARY` config is still honored for compatibility.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Disclaimer
+
+C3 is provided "as is", without warranty of any kind, express or implied. Token savings, session length improvements, and benchmark figures are based on internal testing — actual results may vary. C3 is not affiliated with, endorsed by, or officially connected to Anthropic, OpenAI, or any AI model provider. The authors are not responsible for any data loss, unexpected behavior, or costs incurred through use of this software. C3 runs entirely locally and does not transmit your code or project data to external servers.
