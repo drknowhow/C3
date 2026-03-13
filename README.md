@@ -132,4 +132,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Disclaimer
 
+*Created by AI, for AI — via Dr. Know How's hard work.*
+
+---
+
 C3 is provided "as is", without warranty of any kind, express or implied. Token savings, session length improvements, and benchmark figures are based on internal testing — actual results may vary. C3 is not affiliated with, endorsed by, or officially connected to Anthropic, OpenAI, or any AI model provider. The authors are not responsible for any data loss, unexpected behavior, or costs incurred through use of this software. C3 runs entirely locally and does not transmit your code or project data to external servers.
