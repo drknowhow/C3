@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/\")",
+      "Bash(ls \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/tests/\")",
+      "Bash(ls \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/docs/\")",
+      "Bash(ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.claude/\")",
+      "Bash(ls -R \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/docs/\")",
+      "Bash(cat \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/recommended\")",
+      "Bash(cat \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/benchmark-report.html\" > /dev/null 2>&1 && echo \"exists\" || echo \"not found\"; ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.codex/\" 2>/dev/null; ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.gemini/\" 2>/dev/null; ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.github/\" 2>/dev/null; ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.vscode/\" 2>/dev/null; ls -la \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/.pytest_cache/\" 2>/dev/null)",
+      "Bash(cd \"U:/1. Projects/Claude Code Companion \\(C3\\)/C3 free/\" && rm -rf tests/ docs/ .pytest_cache/ .codex/ .gemini/ .github/ .vscode/ && rm -f '`${name}' recommended AGENTS.md GEMINI.md benchmark-report.html)",
+      "Bash(gh --version 2>/dev/null && gh auth status 2>&1 || echo \"gh CLI not available\")",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH\" && gh auth login -w -p https 2>&1)"
+    ]
+  }
+}

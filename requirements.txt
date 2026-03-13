@@ -1,0 +1,22 @@
+tiktoken>=0.7.0
+fastmcp>=2.0.0
+watchdog>=4.0.0
+tree-sitter>=0.22.0
+tree-sitter-python>=0.21.0
+tree-sitter-javascript>=0.21.0
+tree-sitter-typescript>=0.21.0
+tree-sitter-html>=0.21.0
+tree-sitter-markdown>=0.21.0
+tree-sitter-css>=0.21.0
+tree-sitter-go>=0.21.0
+tree-sitter-rust>=0.21.0
+tree-sitter-json>=0.21.0
+tree-sitter-yaml>=0.21.0
+flask>=3.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+rich>=13.0.0
+click>=8.0.0
+pyyaml>=6.0.0
+# Optional: SLTM vector memory (Tier 3)
+chromadb>=0.4.24
