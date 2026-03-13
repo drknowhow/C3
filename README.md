@@ -1,5 +1,8 @@
 # Code Context Control (C3)
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-drknowhow-ea4aaa.svg?logo=github-sponsors)](https://github.com/sponsors/drknowhow)
+
 C3 is a local code-intelligence layer for AI coding tools. The useful core is narrow: retrieve less, read less, and offload heavy analysis locally when that actually saves context.
 
 ## Recommended Default
@@ -116,6 +119,12 @@ The UI now treats direct MCP mode as the recommended default and labels proxy mo
 - `--git` runs a local-only `git init`; it does not add remotes or use any hosted service.
 - Existing installs are not automatically migrated; rerun `install-mcp` or `init --force` to switch defaults.
 - Legacy `SHOW_SAVINGS_SUMMARY` config is still honored for compatibility.
+
+## Support C3
+
+C3 is free and open source. If it saves you tokens, extends your sessions, and makes your AI coding workflow better, consider supporting its development. Every contribution helps keep the project maintained and improving.
+
+[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-drknowhow-ea4aaa.svg?logo=github-sponsors&style=for-the-badge)](https://github.com/sponsors/drknowhow)
 
 ## License
 
